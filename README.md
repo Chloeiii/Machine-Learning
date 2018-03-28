@@ -48,7 +48,9 @@
 
 ### Random Forest :stuck\_out\_tongue:
 * [Random Forest in Python](http://blog.yhat.com/posts/random-forests-in-python.html)
-<img src="http://blog.yhat.com/static/img/decision_tree_example.png" width="600">
+
+<img src="http://blog.yhat.com/static/img/decision_tree_example.png" width="300"><img src="http://blog.yhat.com/static/img/a_random_forest.png" width="300">
+<img src="http://blog.yhat.com/static/img/log_lm_vs_rf.png" width="900">
 
 * Overview
 
@@ -71,3 +73,11 @@
         The algorithm to induce a random forest will create a bunch of random decision trees automatically. 
         Since the trees are generated at random, most won't be all that meaningful to learning your 
         classification/regression problem (maybe 99.9% of trees).
+        
+        When you make a prediction, the new observation gets pushed down each decision tree and assigned 
+        a predicted value/label. Once each of the trees in the forest have reported its predicted value/label, 
+        the predictions are tallied up and the mode vote of all trees is returned as the final prediction.
+
+        Simply, the 99.9% of trees that are irrelevant make predictions that are all over the map and cancel 
+        each another out. The predictions of the minority of trees that are good top that noise and yield a 
+        good prediction.
