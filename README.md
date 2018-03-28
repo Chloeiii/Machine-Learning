@@ -49,3 +49,25 @@
 ### Random Forest :stuck\_out\_tongue:
 * [Random Forest in Python](http://blog.yhat.com/posts/random-forests-in-python.html)
 <img src="http://blog.yhat.com/static/img/decision_tree_example.png" width="600">
+
+* Overview
+
+        Random forest is a highly versatile machine learning method with numerous applications 
+        ranging from marketing to healthcare and insurance. It can be used to model the impact of 
+        marketing on customer acquisition, retention, and churn or to predict disease risk and 
+        susceptibility in patients.
+
+        Random forest is capable of regression and classification. It can handle a large number of 
+        features, and it's helpful for estimating which of your variables are important in the 
+        underlying data being modeled.
+* What is a Random Forest?
+
+        Random forest is solid choice for nearly any prediction problem (even non-linear ones). 
+        It's a relatively new machine learning strategy (it came out of Bell Labs in the 90s) 
+        and it can be used for just about anything. It belongs to a larger class of 
+        machine learning algorithms called ensemble methods.
+        
+        Random Forest
+        The algorithm to induce a random forest will create a bunch of random decision trees automatically. 
+        Since the trees are generated at random, most won't be all that meaningful to learning your 
+        classification/regression problem (maybe 99.9% of trees).
