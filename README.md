@@ -1,7 +1,7 @@
 
 # Machine Learning :checkered_flag:
 
-### Tutorials && Courses :coffee: 
+### Tutorials && Courses :dog:
 * [Machine Learning Tutorial for Beginners](https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners)
 * [Machine Learning - Andrew Ng](https://www.coursera.org/learn/machine-learning)
 
@@ -81,3 +81,27 @@
         Simply, the 99.9% of trees that are irrelevant make predictions that are all over the map and cancel 
         each another out. The predictions of the minority of trees that are good top that noise and yield a 
         good prediction.
+* Uses
+
+        1. Variable Selection 
+            One of the best use cases for random forest is feature selection. One of the byproducts of trying 
+            lots of decision tree variations is that you can examine which variables are working best/worst 
+            in each tree.
+            
+            e.g. figure out which variables are most important for classifying a wine as being red or white.
+
+        2. Classification
+            Random forest is also great for classification. It can be used to make predictions for categories 
+            with multiple possible values and it can be calibrated to output probabilities as well. One thing 
+            you do need to watch out for is overfitting. Random forest can be prone to overfitting, especially 
+            when working with relatively small datasets. You should be suspicious if your model is making 
+            "too good" of predictions on our test set.
+            
+        3. Regression
+            random forest--unlike other algorithms--does really well learning on categorical variables or 
+            a mixture of categorical and real variables. Categorical variables with high cardinality 
+            (# of possible values) can be tricky, so having something like this in your back pocket can 
+            come in quite useful.     
+
+
+
