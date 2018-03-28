@@ -49,7 +49,7 @@
 ### Random Forest :stuck\_out\_tongue:
 * [Random Forest in Python](http://blog.yhat.com/posts/random-forests-in-python.html)
 
-<img src="http://blog.yhat.com/static/img/decision_tree_example.png" width="300"><img src="http://blog.yhat.com/static/img/a_random_forest.png" width="300">
+<img src="http://blog.yhat.com/static/img/decision_tree_example.png" width="430"><img src="http://blog.yhat.com/static/img/a_random_forest.png" width="430">
 <img src="http://blog.yhat.com/static/img/log_lm_vs_rf.png" width="900">
 
 * Overview
