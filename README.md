@@ -101,7 +101,15 @@
             random forest--unlike other algorithms--does really well learning on categorical variables or 
             a mixture of categorical and real variables. Categorical variables with high cardinality 
             (# of possible values) can be tricky, so having something like this in your back pocket can 
-            come in quite useful.     
+            come in quite useful.    
+* RandomForestClassifier
+<img src="http://scikit-learn.org/stable/_images/sphx_glr_plot_forest_iris_001.png" width="700">
 
-
-
+        A random forest is a meta estimator that fits a number of decision tree classifiers on various 
+        sub-samples of the dataset and use averaging to improve the predictive accuracy and control 
+        over-fitting. The sub-sample size is always the same as the original input sample size but 
+        the samples are drawn with replacement if bootstrap=True (default).
+        
+        An Example:
+            https://chrisalbon.com/machine_learning/trees_and_forests/random_forest_classifier_example/
+            
