@@ -1,7 +1,7 @@
 
 # Machine Learning :checkered_flag:
 
-### Tutorials && Courses :dog:
+### Tutorials && Courses :baby_bottle:
 * [Machine Learning Tutorial for Beginners](https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners)
 * [Machine Learning - Andrew Ng](https://www.coursera.org/learn/machine-learning)
 
