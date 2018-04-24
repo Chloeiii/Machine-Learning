@@ -9,7 +9,7 @@ def pca(fin, fout):
 	data = np.asarray(data)
 
 	pca_data = data[1:,65:75].astype(float) #10 columns
-  #convert numpy float to native float
+ 	 #convert numpy float to native float
 	for i in pca_data:
 		for j in i: 
 			j = j.item() 
