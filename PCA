@@ -1,4 +1,3 @@
-:love_letter:
 #-----------------------------------------Principle Component Analysis--------------------------------------------
 
 def pca(fin, fout):
